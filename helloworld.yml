@@ -2,7 +2,7 @@
 - name: This is a hello-world example
   hosts: all
   tasks:
-    - name: Create a file called '/tmp/testfile.txt' with the content 'hello world'.
+    - name: Create a file called '/tmp/testfile.txt' with the content 'hello world and so on yup changed with vsc'.
       copy:
         content: hello world1234\n
         dest: /tmp/testfile.txt
